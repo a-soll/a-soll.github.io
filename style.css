@@ -139,7 +139,12 @@ section h2 {
     opacity: 1;
   }
 }
-
+.download-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
 /* Scroll Animation */
 .scroll-in {
   opacity: 1;
