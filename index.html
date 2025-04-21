@@ -1,118 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<link rel="stylesheet" href="navbutton.css" />
+<link rel="stylesheet" href="background.css">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Kulve is a lightweight, fast, and feature-packed Twitch client for macOS users. Join the Kulve community today!">
-  <meta name="keywords" content="Kulve, Twitch Client, macOS, 7TV, Twitch Emotes, Stream Chat, Customisable Twitch Player">
-  <meta name="author" content="Kulve Team">
-  <meta name="robots" content="index, follow">
-
-  <title>Kulve - Lightweight Twitch Client for macOS</title>
-  <link rel="shortcut icon" href="img/Kulve_Icon_02-64.png" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
-
-  <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="Kulve - Your New macOS Twitch Client">
-  <meta property="og:description" content="Lightweight, fast, and feature-packed Twitch client for macOS users. Join the Kulve community today!">
-  <meta property="og:image" content="img/Kulve_Icon_02-1024.png">
-  <meta property="og:url" content="https://kulve.org">
-  <meta property="og:type" content="website">
-
-  <!-- Twitter Card Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kulve - Your New macOS Twitch Client">
-  <meta name="twitter:description" content="Lightweight, fast, and feature-packed Twitch client for macOS users. Join the Kulve community today!">
-  <meta name="twitter:image" content="img/Kulve_Icon_02-1024.png">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Introducing Kulve, your new fully native Twitch experience.</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-  <header>
-    <img src="img/Kulve_Icon_02-1024.png" width="120" alt="Kulve Logo" class="center">
-    <h1>Introducing Kulve, your new macOS Twitch client</h1>
-    <p>Lightweight, fast, and feature-packed for Twitch users on macOS.</p>
-    <p>
-      <a href="https://discord.gg/55T4AKJKt3" class="cta-button">Join the Discord</a>
-    </p>
-  </header>
-
-  <!-- Features Section -->
-  <main>
-    <section>
-      <h2>Features</h2>
-      <div class="feature">
-        <div class="feature-text">
-          <h3>7TV Emote Integration</h3>
-          <p>Bring your favourite 7TV emotes into your Twitch experience seamlessly.</p>
-        </div>
-        <img src="img/7tv.png" alt="7TV Emotes Feature" class="feature-image">
-      </div>
-
-      <div class="feature">
-        <div class="feature-text">
-          <h3>Streamlined Chat</h3>
-          <p>Enjoy a clean and responsive chat experience that makes connecting with your community effortless.</p>
-        </div>
-        <img src="img/chat.png" alt="Chat Feature" class="feature-image">
-      </div>
-
-      <div class="feature">
-        <div class="feature-text">
-          <h3>Customisable Twitch Player</h3>
-          <p>Optimised for macOS, the Kulve player delivers smooth performance with essential Twitch controls.</p>
-        </div>
-        <img src="img/player.png" alt="Twitch Player Feature" class="feature-image">
-      </div>
-
-      <div class="feature">
-        <div class="feature-text">
-          <h3>Powerful Search</h3>
-          <p>Find your favourite streams and channels quickly with Kulve’s advanced search capabilities.</p>
-        </div>
-        <img src="img/search.png" alt="Search Feature" class="feature-image">
-      </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section>
-      <h2>FAQs</h2>
-      <div class="faq">
-        <h3>What is Kulve?</h3>
-        <p>Kulve is a Twitch client designed for macOS users, offering a lightweight and feature-rich experience.</p>
-      </div>
-      <div class="faq">
-        <h3>Is Kulve free to use?</h3>
-        <p>Yes, Kulve is completely free to download and use.</p>
-      </div>
-      <div class="faq">
-        <h3>How do I get started with Kulve?</h3>
-        <p>Simply download the app from our website and start enjoying a better Twitch experience on macOS!</p>
-      </div>
-      <div class="faq">
-        <h3>Does Kulve support 7TV emotes?</h3>
-        <p>Yes! Kulve integrates 7TV emotes seamlessly into your Twitch chat experience.</p>
-      </div>
-      <div class="faq">
-        <h3>Where can I provide feedback or report issues?</h3>
-        <p>Join our <a href="https://discord.gg/55T4AKJKt3">Discord server</a> to connect with our community and share feedback.</p>
-      </div>
-    </section>
-
-    <div class="download-container">
-      <a href="https://discord.gg/55T4AKJKt3" class="cta-button">Try the beta here!</a>
+  <div class="gradient-bg-wrapper">
+    <div class="nav-container">
+      <a href="/privacy.html" class="nav-button">
+        Privacy Policy
+      </a>
+      <a href="/blog" class="nav-button">
+        Dev Blog
+      </a>
     </div>
-  </main>
+    <header>
+      <div class="branding">
+        <img src="img/Kulve_Icon_02-1024.png" alt="Kulve Logo" class="logo" />
+        <h1>Kulve</h1>
+      </div>
+      <p>Introducing Kulve, your new fully native Twitch experience.</p>
+      <a href="#features" class="button">Learn More</a>
+      <img src="img/landing_page.png" alt="Landing Page" class="screenshot" />
+    </header>
 
-  <!-- Footer Section -->
-  <footer>
-    <a href="https://discord.gg/k8G2JbQKeR">Discord   </a><a href="https://github.com/a-soll/a-soll.github.io">Github</a>
-    <p>Built with ❤️ for macOS users.</p>
-  </footer>
+    <section id="features">
+      <h2>Why Kulve?</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <h3>⚡ Blazing Fast</h3>
+          <p>Built natively for speed – no lag, no clutter.</p>
+        </div>
+        <div class="feature">
+          <h3>🎯 Focused Experience</h3>
+          <p>Only what you need to stream, chat, and chill.</p>
+        </div>
+        <div class="feature">
+          <h3>🧩 Lightweight</h3>
+          <p>No Electron. No bloat. Just pure Twitch goodness.</p>
+        </div>
+      </div>
+    </section>
 
-  <script src="script.js"></script>
+    <section id="cta">
+      <h2>Try Kulve Now</h2>
+      <a href="https://apps.apple.com/us/app/kulve/id6476389316?mt=12">
+        <img src="img/download_appstore.svg" alt="Download on the App Store" class="download-button" />
+      </a>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Kulve. All rights reserved.</p>
+      <p><a href="mailto:kulvesupport@icloud.com">kulvesupport@icloud.com</a></p>
+    </footer>
+  </div>
 </body>
 
 </html>
