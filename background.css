@@ -1,0 +1,39 @@
+.gradient-bg-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.gradient-bg-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    45deg,
+    #ca66d3,
+    #c973d9,
+    #c87edf,
+    #c789e4,
+    #c694e8,
+    #c79eeb,
+    #c7a8ee,
+    #c9b1f0
+  );
+  background-size: 400% 400%;
+  animation:
+    hueRotate 20s linear infinite,
+    gradientShift 30s ease infinite;
+  filter: hue-rotate(0deg);
+}
+
+@keyframes hueRotate {
+  0%   { filter: hue-rotate(0deg); }
+  50%  { filter: hue-rotate(10deg); }
+  100% { filter: hue-rotate(0deg); }
+}
+
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
