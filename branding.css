@@ -1,0 +1,35 @@
+.branding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.branding .logo {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+  margin-top: 15px;
+}
+
+.branding h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.branding-link {
+  color: white;
+}
+
+.branding-child .logo {
+  height: 60px;
+  width: 60px;
+  margin-top: 0px;
+}
+
+.branding-child {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 1rem;
+}

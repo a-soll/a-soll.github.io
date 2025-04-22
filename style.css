@@ -95,26 +95,6 @@ footer {
   font-size: 0.9rem;
 }
 
-.branding {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* space between image and text */
-  margin-bottom: 1rem;
-}
-
-.branding .logo {
-  height: 60px;
-  width: 60px;
-  object-fit: contain;
-  margin-top: 15px;
-}
-
-.branding h1 {
-  font-size: 2.5rem;
-  margin: 0;
-}
-
 .screenshot {
   max-width: 100%;
   height: auto;
