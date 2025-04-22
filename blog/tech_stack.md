@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "The tech stack"
+date:   2025-04-22 12:59:10 -0400
+categories: jekyll update
+permalink: /blog/tech_stack
+---
+
 <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
   <img src="img/cpp_logo.png" alt="cpp logo" width="100"/>
   <span style="font-size: 75px;">🤝</span>
