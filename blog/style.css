@@ -27,3 +27,35 @@ body {
   background-color: #282C34;
   /* color: #ffffff; */
 }
+
+.discord-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #5865F2;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  font-family: sans-serif;
+}
+
+.discord-button:hover {
+  background-color: #4752c4;
+}
+
+.discord-button img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  filter: brightness(0) invert(1);
+}
+
+.button-row {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+}
