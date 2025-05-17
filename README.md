@@ -1,1 +1,1 @@
-Official website of Kuvle, an upcoming macOS native Twitch client
+Official website of Kuvle, a fully native macOS Twitch client.
