@@ -1,7 +1,25 @@
 {
     "data": [
         {
-            "version": 360
+            "version": 360,
+            "media": [
+                {
+                    "name": "chat_preferences.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "inline_thread_large.mov",
+                    "type": "video/quicktime"
+                },
+                {
+                    "name": "inline_thread.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "jump_to_reply.mov",
+                    "type": "video/quicktime"
+                }
+            ]
         }
     ]
 }
