@@ -5,18 +5,22 @@
             "media": [
                 {
                     "name": "chat_preferences.png",
+                    "display_name": "Chat Preferences",
                     "type": "image/png"
                 },
                 {
                     "name": "inline_thread_large.mov",
+                    "display_name": "Large Inline Threads",
                     "type": "video/quicktime"
                 },
                 {
                     "name": "inline_thread.png",
+                    "display_name": "Inline Thread",
                     "type": "image/png"
                 },
                 {
                     "name": "jump_to_reply.mov",
+                    "display_name": "Jump to Reply",
                     "type": "video/quicktime"
                 }
             ]
